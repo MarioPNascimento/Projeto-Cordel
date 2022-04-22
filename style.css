@@ -13,13 +13,13 @@
 
 * {
     margin: 0px;
-    padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;    
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -31,6 +31,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
 }
 
 header > p {
@@ -48,6 +49,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 
 section.normal {
